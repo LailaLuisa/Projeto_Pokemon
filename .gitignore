@@ -1,0 +1,16 @@
+# Arquivos do Ambiente Virtual 
+.venv/
+venv/
+.env
+env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Configurações de ambiente / IDEs 
+.vscode/
+.DS_Store
+
+#Arquivo de testes
+testes.ipynb
