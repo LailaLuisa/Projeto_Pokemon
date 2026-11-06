@@ -4,7 +4,7 @@ Pipeline de ETL desenvolvido em Python para extração de dados da primeira gera
 ## 🚀 Objetivo do projeto:
 
 O projeto executa um fluxo automatizado dividido em duas etapas principais:
-1. *Coleta e Transformação:* Varre os IDs de 1 a 151 da PokeAPI utilizando tratamento de dados, controle de requisições (time.sleep) e filtros para extrair informações básicas (ID, nome, altura, peso, experiência e tipo principal). Os dados são estruturados e convertidos em um DataFrame com pandas.
+1. *Coleta e Transformação:* Varre os IDs de 1 a 150 da PokeAPI utilizando tratamento de dados, controle de requisições (time.sleep) e filtros para extrair informações básicas (ID, nome, altura, peso, experiência e tipo principal). Os dados são estruturados e convertidos em um DataFrame com pandas.
 2. *Carga (Load):* Conecta-se de forma segura a um banco de dados PostgreSQL utilizando variáveis de ambiente (.env) e carrega o DataFrame diretamente para uma tabela utilizando SQLAlchemy.
 
 ## 📁 Estrutura do Repositório
